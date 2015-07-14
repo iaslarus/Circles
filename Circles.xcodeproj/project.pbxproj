@@ -13,6 +13,8 @@
 		E1A7D7E31B3C73A400B9A5CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A7D7E21B3C73A400B9A5CC /* Images.xcassets */; };
 		E1A7D7E61B3C73A400B9A5CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A7D7E41B3C73A400B9A5CC /* LaunchScreen.xib */; };
 		E1A7D7F21B3C73A400B9A5CC /* CirclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7D7F11B3C73A400B9A5CC /* CirclesTests.swift */; };
+		E1A7D7FC1B3C73DB00B9A5CC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7D7FB1B3C73DB00B9A5CC /* DrawingView.swift */; };
+		E1A7D7FE1B3C73F200B9A5CC /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7D7FD1B3C73F200B9A5CC /* Circles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1A7D7EB1B3C73A400B9A5CC /* CirclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A7D7F01B3C73A400B9A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A7D7F11B3C73A400B9A5CC /* CirclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTests.swift; sourceTree = "<group>"; };
+		E1A7D7FB1B3C73DB00B9A5CC /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		E1A7D7FD1B3C73F200B9A5CC /* Circles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				E1A7D7DB1B3C73A400B9A5CC /* AppDelegate.swift */,
 				E1A7D7DD1B3C73A400B9A5CC /* ViewController.swift */,
+				E1A7D7FB1B3C73DB00B9A5CC /* DrawingView.swift */,
+				E1A7D7FD1B3C73F200B9A5CC /* Circles.swift */,
 				E1A7D7DF1B3C73A400B9A5CC /* Main.storyboard */,
 				E1A7D7E21B3C73A400B9A5CC /* Images.xcassets */,
 				E1A7D7E41B3C73A400B9A5CC /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A7D7FC1B3C73DB00B9A5CC /* DrawingView.swift in Sources */,
+				E1A7D7FE1B3C73F200B9A5CC /* Circles.swift in Sources */,
 				E1A7D7DE1B3C73A400B9A5CC /* ViewController.swift in Sources */,
 				E1A7D7DC1B3C73A400B9A5CC /* AppDelegate.swift in Sources */,
 			);
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Circles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Circles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +421,7 @@
 				E1A7D7F71B3C73A400B9A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A7D7F81B3C73A400B9A5CC /* Build configuration list for PBXNativeTarget "CirclesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				E1A7D7FA1B3C73A400B9A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
